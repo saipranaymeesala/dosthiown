@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/90c6ae4459.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="">
+    <title>Dosthi Application</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h2 class="fw-bold text-center pt-5">Profile</h2>
+        
+        <div class="form-group mt-5">
+            <input type="text" name="nickname" id="nickname" class="form-control rounded-4 form-group-item" placeholder="Nick Name"/>
+        </div>
+        
+        <!-- Gender Selection -->
+        <div class="form-group mt-3">
+            <select name="gender" id="gender" class="form-control rounded-4 form-group-item">
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        <!-- Age Input -->
+        <div class="form-group mt-3">
+            <input type="number" name="age" id="age" class="form-control rounded-4 form-group-item" placeholder="Age" min="18" max="100"/>
+        </div>
+    </div>
+    <div class="mt-4"></div>
+     <a href="main.html" class="btn btn-warning form-control">Start</a>
+    </div>
+</body>
+</html>
